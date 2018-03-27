@@ -1,3 +1,18 @@
+function takeANumber(katzDeliLine, newName){
+  katzDeliLine.push(newName);
+  return `Welcome $name. You are ${katzDeliLine.length} in line`
+}
+
+
+
+function nowServing(katzDeliLine){
+  
+}
+
+
+
+
+
 function currentLine(katzDeliLine) {
   if (!katzDeliLine.length){
     return "The line is currently empty."
