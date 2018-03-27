@@ -1,6 +1,6 @@
 function currentLine(katzDeliLine) {
   if (!katzDeliLine.length){
-    return "The current line is currently empty."
+    return "The line is currently empty."
   }
   const numbersAndNames = [];
   for (let i=0, l=katzDeliLine.length; i<l; i++){
