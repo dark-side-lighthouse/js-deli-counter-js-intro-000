@@ -1,8 +1,13 @@
-function currentLine(line) {
-  if (!line.length){
+function currentLine(katzDeliLine) {
+  if (!katzDeliLine.length){
     return "The current line is currently empty."
   }
-}
+  const numbersAndNames = [];
+  for (let i=0, l=katzDeliLine.length; i<l; i++){
+    numbersAndNames.push(`${i+1}. ${katzDeliLine[i]}`);
+  }
+  return `The line is currently: $numbersAndNames.join(`, `)`;
+  }
 
 
 
